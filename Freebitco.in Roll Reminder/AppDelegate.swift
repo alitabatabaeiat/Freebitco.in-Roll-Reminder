@@ -8,15 +8,23 @@
 
 import UIKit
 import CoreData
+import UserNotifications
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
 
-
+    func setCategories(){
+        let rollAction = UNNotificationAction(identifier: "roll.action", title: "Roll", options: [])
+        let stopAction = UNNotificationAction(identifier: "stop.action", title: "Stop", options: [])
+        let rollCategory = UNNotificationCategory(identifier: "roll.category", actions: [rollAction, stopAction], intentIdentifiers: [], options: [])
+        UNUserNotificationCenter.current().setNotificationCategories([rollCategory])
+    }
+    
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        setCategories()
         return true
     }
 
@@ -90,4 +98,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     }
 
 }
+
+let appDelegate = UIApplication.shared.delegate as! AppDelegate
+let context = appDelegate.persistentContainer.viewContext
 

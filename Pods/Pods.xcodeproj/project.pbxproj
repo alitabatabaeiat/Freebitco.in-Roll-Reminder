@@ -1,0 +1,699 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0BE0B42903D75D5219AEA75C1341EBD8 /* ValidationRulePattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = B274632438CC1B6DE4633E9A79A0FAAC /* ValidationRulePattern.swift */; };
+		11A2049C3C9A504E25638A661BA35E65 /* Validator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64155CBEFD71C95C41479D28FCEACB9B /* Validator.swift */; };
+		14C3497C4974521C355A73D765233A1B /* Pods-Freebitco.in Roll Reminder-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A7C3F2E7A9CB1DD2D44D9E3A3B37C7D /* Pods-Freebitco.in Roll Reminder-dummy.m */; };
+		19C2B7B08335C7550345B51B1A8A1DD7 /* ValidationRuleCondition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55607C3D744D8C9A5629D00223C3E156 /* ValidationRuleCondition.swift */; };
+		2114515342552DCF0C4EE88E93FF6FE3 /* ValidationRuleURL.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCC522FB3F4721B2B1CC7BEACECD0977 /* ValidationRuleURL.swift */; };
+		23C6803455A336DEE49268C4DF41DFCE /* Validator-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6D9681D954689DB49680FE0975D4F314 /* Validator-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		28C01FC1018D1FD2D0F583374C679A6B /* ValidationRuleEquality.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3AD888F796A9EFF8463C8F79A26F76B /* ValidationRuleEquality.swift */; };
+		31D099FB7E7CAECA0B3455842AB2C267 /* Validatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 322C309DCB9320BE548B438B3D758CEF /* Validatable.swift */; };
+		389F6C9ADE491CACA28FD272A50B694E /* ValidationPattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F93C03164F2B8F624AAA72CFB6F95A1 /* ValidationPattern.swift */; };
+		3BBE58BE51C652EB644034DB93EA26B7 /* UITextField+Validator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DC038AD92C8B85BCA9F7EEA06C907EB /* UITextField+Validator.swift */; };
+		4F3B348C1E8CE097DD1F0B5DE46863FA /* ValidationRulePaymentCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21E73E063E8D66E9FB11554937418700 /* ValidationRulePaymentCard.swift */; };
+		5B1B8DE06E4A75A0EDAA0606614F0FB2 /* CaseValidationPattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B77413507BE815C40F8D650A3AA407E /* CaseValidationPattern.swift */; };
+		607537643C9A59735F6E8337AAE7F1E0 /* ValidatableInterfaceElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 508151E08478C2B173313B0B7C422408 /* ValidatableInterfaceElement.swift */; };
+		74998677652D034B6E9F3282CF609FCC /* EmailValidationPattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F036830E040B25DBBF9FF0CA4996105 /* EmailValidationPattern.swift */; };
+		770475BBC2750688F45C9E15B9C87A55 /* UISlider+Validator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A49EA110BD9F8ABE61929BA610A2EEFD /* UISlider+Validator.swift */; };
+		79D6D6810FB1B033DA08BDC1A0F54B3B /* Pods-Freebitco.in Roll Reminder-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A82E0CF7A3CD83FC407DB6712BE6E569 /* Pods-Freebitco.in Roll Reminder-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7A5FA447BFCA65FD6C31C3B893D09963 /* ValidationRuleLength.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D23E227D259500CD90D167754976FC8 /* ValidationRuleLength.swift */; };
+		858D8731CCCBAE7555976269A41DC97A /* ValidationRuleComparison.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93EAF4A6DAA7123C8332D07EDD5DC3AB /* ValidationRuleComparison.swift */; };
+		AC242D4AB8EF2A8C2F97E8F0220F554F /* Validator-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A742275E2A280535F8B9FD6EBC64700F /* Validator-dummy.m */; };
+		B21398748BEEF7763B22A59E8DD004AC /* ValidationRuleRequired.swift in Sources */ = {isa = PBXBuildFile; fileRef = D936BC57A41001737037EFCB14CB0800 /* ValidationRuleRequired.swift */; };
+		B26D4E20319F3653077CFF8C994160D1 /* ValidationRule.swift in Sources */ = {isa = PBXBuildFile; fileRef = D593A642A64FA629DA399F82B36B440D /* ValidationRule.swift */; };
+		B673680EE74064D234F565FFA9882257 /* ValidationResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = C45CBEAF8881E0A1F3C6C68C1A708080 /* ValidationResult.swift */; };
+		B9D92467F5C91CF8DC122E22707DC28E /* UITextView+Validator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08384AEEA653B01CE35B006CA7D5FBA8 /* UITextView+Validator.swift */; };
+		B9E597D08A19D9DA911135728743853A /* ContainsNumberValidationPattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29AE362B30DC98793E178D20C93DA287 /* ContainsNumberValidationPattern.swift */; };
+		C332393AA046BAA6221F2CD97A837089 /* ValidationRuleSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 680907D79F734135AC619497C16F4472 /* ValidationRuleSet.swift */; };
+		D7BBFFE730E3F9EFB8939CDF52959222 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 908E902E026C5C22904CF9014A5604AD /* Foundation.framework */; };
+		E160FB380E4464507B379D148A5AD313 /* ValidationRuleContains.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2398F632012964213E9520E1977E089B /* ValidationRuleContains.swift */; };
+		EA3FBF3397AEC189076981D17A5F3AC4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC2C02191C153C1554B35DEE8B2D09D4 /* UIKit.framework */; };
+		F4780AA702954EC23D1BBCD6765D0E80 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 908E902E026C5C22904CF9014A5604AD /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		86CB568495EBF918D7989AD816693AE1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 58C4D21B6797C07732D51ADDC6E5F495;
+			remoteInfo = Validator;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		08384AEEA653B01CE35B006CA7D5FBA8 /* UITextView+Validator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UITextView+Validator.swift"; path = "Validator/Sources/UIKit+Validator/UITextView+Validator.swift"; sourceTree = "<group>"; };
+		0B77413507BE815C40F8D650A3AA407E /* CaseValidationPattern.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CaseValidationPattern.swift; path = Validator/Sources/CaseValidationPattern.swift; sourceTree = "<group>"; };
+		15CCA7459F233D5901EAFDBDACAC0AD5 /* Pods-Freebitco.in Roll Reminder.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Freebitco.in Roll Reminder.debug.xcconfig"; sourceTree = "<group>"; };
+		186969B85C5EAC1754206EBA7CBE7EF9 /* Pods-Freebitco.in Roll Reminder-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Freebitco.in Roll Reminder-frameworks.sh"; sourceTree = "<group>"; };
+		1F50F1DC2A85C49D4EF5398E5922060D /* Validator-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Validator-prefix.pch"; sourceTree = "<group>"; };
+		21E73E063E8D66E9FB11554937418700 /* ValidationRulePaymentCard.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ValidationRulePaymentCard.swift; path = Validator/Sources/Rules/ValidationRulePaymentCard.swift; sourceTree = "<group>"; };
+		2398F632012964213E9520E1977E089B /* ValidationRuleContains.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ValidationRuleContains.swift; path = Validator/Sources/Rules/ValidationRuleContains.swift; sourceTree = "<group>"; };
+		27CFEC6BDC48F681914E1935DE10E52A /* Validator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Validator.framework; path = Validator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		29AE362B30DC98793E178D20C93DA287 /* ContainsNumberValidationPattern.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ContainsNumberValidationPattern.swift; path = Validator/Sources/ContainsNumberValidationPattern.swift; sourceTree = "<group>"; };
+		322C309DCB9320BE548B438B3D758CEF /* Validatable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Validatable.swift; path = Validator/Sources/Validatable.swift; sourceTree = "<group>"; };
+		3D63A78D4D43A45B8C333BF1C743281F /* Pods-Freebitco.in Roll Reminder.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Freebitco.in Roll Reminder.modulemap"; sourceTree = "<group>"; };
+		4089169E19F43D9F59E03506D3A254B9 /* Pods_Freebitco_in_Roll_Reminder.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Freebitco_in_Roll_Reminder.framework; path = "Pods-Freebitco.in Roll Reminder.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		41D5307E290A6951EBF7F45D5A0972E2 /* Pods-Freebitco.in Roll Reminder-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Freebitco.in Roll Reminder-acknowledgements.plist"; sourceTree = "<group>"; };
+		4A117F9ED5190601BA489BF32BC5400B /* Pods-Freebitco.in Roll Reminder.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Freebitco.in Roll Reminder.release.xcconfig"; sourceTree = "<group>"; };
+		4D23E227D259500CD90D167754976FC8 /* ValidationRuleLength.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ValidationRuleLength.swift; path = Validator/Sources/Rules/ValidationRuleLength.swift; sourceTree = "<group>"; };
+		508151E08478C2B173313B0B7C422408 /* ValidatableInterfaceElement.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ValidatableInterfaceElement.swift; path = "Validator/Sources/UIKit+Validator/ValidatableInterfaceElement.swift"; sourceTree = "<group>"; };
+		55607C3D744D8C9A5629D00223C3E156 /* ValidationRuleCondition.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ValidationRuleCondition.swift; path = Validator/Sources/Rules/ValidationRuleCondition.swift; sourceTree = "<group>"; };
+		609DF2133BA06822AD8514AC8ABDFA81 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		64155CBEFD71C95C41479D28FCEACB9B /* Validator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Validator.swift; path = Validator/Sources/Validator.swift; sourceTree = "<group>"; };
+		680907D79F734135AC619497C16F4472 /* ValidationRuleSet.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ValidationRuleSet.swift; path = Validator/Sources/ValidationRuleSet.swift; sourceTree = "<group>"; };
+		6D9681D954689DB49680FE0975D4F314 /* Validator-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Validator-umbrella.h"; sourceTree = "<group>"; };
+		7DC038AD92C8B85BCA9F7EEA06C907EB /* UITextField+Validator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UITextField+Validator.swift"; path = "Validator/Sources/UIKit+Validator/UITextField+Validator.swift"; sourceTree = "<group>"; };
+		84282B165EBFF44D8D2593FEF1C5FFA5 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8A7C3F2E7A9CB1DD2D44D9E3A3B37C7D /* Pods-Freebitco.in Roll Reminder-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Freebitco.in Roll Reminder-dummy.m"; sourceTree = "<group>"; };
+		8F036830E040B25DBBF9FF0CA4996105 /* EmailValidationPattern.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EmailValidationPattern.swift; path = Validator/Sources/EmailValidationPattern.swift; sourceTree = "<group>"; };
+		8F93C03164F2B8F624AAA72CFB6F95A1 /* ValidationPattern.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ValidationPattern.swift; path = Validator/Sources/ValidationPattern.swift; sourceTree = "<group>"; };
+		908E902E026C5C22904CF9014A5604AD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93EAF4A6DAA7123C8332D07EDD5DC3AB /* ValidationRuleComparison.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ValidationRuleComparison.swift; path = Validator/Sources/Rules/ValidationRuleComparison.swift; sourceTree = "<group>"; };
+		A49EA110BD9F8ABE61929BA610A2EEFD /* UISlider+Validator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UISlider+Validator.swift"; path = "Validator/Sources/UIKit+Validator/UISlider+Validator.swift"; sourceTree = "<group>"; };
+		A730DE98484C25E235565683DC2EA278 /* Pods-Freebitco.in Roll Reminder-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Freebitco.in Roll Reminder-acknowledgements.markdown"; sourceTree = "<group>"; };
+		A742275E2A280535F8B9FD6EBC64700F /* Validator-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Validator-dummy.m"; sourceTree = "<group>"; };
+		A82E0CF7A3CD83FC407DB6712BE6E569 /* Pods-Freebitco.in Roll Reminder-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Freebitco.in Roll Reminder-umbrella.h"; sourceTree = "<group>"; };
+		A92A193349101C2B7BAF85408FB3695D /* Pods-Freebitco.in Roll Reminder-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Freebitco.in Roll Reminder-resources.sh"; sourceTree = "<group>"; };
+		B274632438CC1B6DE4633E9A79A0FAAC /* ValidationRulePattern.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ValidationRulePattern.swift; path = Validator/Sources/Rules/ValidationRulePattern.swift; sourceTree = "<group>"; };
+		BC2C02191C153C1554B35DEE8B2D09D4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		C45CBEAF8881E0A1F3C6C68C1A708080 /* ValidationResult.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ValidationResult.swift; path = Validator/Sources/ValidationResult.swift; sourceTree = "<group>"; };
+		D593A642A64FA629DA399F82B36B440D /* ValidationRule.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ValidationRule.swift; path = Validator/Sources/ValidationRule.swift; sourceTree = "<group>"; };
+		D936BC57A41001737037EFCB14CB0800 /* ValidationRuleRequired.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ValidationRuleRequired.swift; path = Validator/Sources/Rules/ValidationRuleRequired.swift; sourceTree = "<group>"; };
+		DC345088C9BCB08A6E8434B8209799C3 /* Validator.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Validator.modulemap; sourceTree = "<group>"; };
+		DCC522FB3F4721B2B1CC7BEACECD0977 /* ValidationRuleURL.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ValidationRuleURL.swift; path = Validator/Sources/Rules/ValidationRuleURL.swift; sourceTree = "<group>"; };
+		E3AD888F796A9EFF8463C8F79A26F76B /* ValidationRuleEquality.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ValidationRuleEquality.swift; path = Validator/Sources/Rules/ValidationRuleEquality.swift; sourceTree = "<group>"; };
+		E900E21D405ACCA677128A3BAF2B1C35 /* Validator.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Validator.xcconfig; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		142E397D5B9D0CD15DD09F68A7FDCD9E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4780AA702954EC23D1BBCD6765D0E80 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80D46D9C5DC92BD7FDF8DABD037FB800 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7BBFFE730E3F9EFB8939CDF52959222 /* Foundation.framework in Frameworks */,
+				EA3FBF3397AEC189076981D17A5F3AC4 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		10DEDCB394BAA0C7FEDEBE330207B074 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				908E902E026C5C22904CF9014A5604AD /* Foundation.framework */,
+				BC2C02191C153C1554B35DEE8B2D09D4 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		1E577E893162CB4E3F9C9C595CD0996D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4089169E19F43D9F59E03506D3A254B9 /* Pods_Freebitco_in_Roll_Reminder.framework */,
+				27CFEC6BDC48F681914E1935DE10E52A /* Validator.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2C2CCD9E1B7478849FC91BF0953ABD99 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				84282B165EBFF44D8D2593FEF1C5FFA5 /* Info.plist */,
+				DC345088C9BCB08A6E8434B8209799C3 /* Validator.modulemap */,
+				E900E21D405ACCA677128A3BAF2B1C35 /* Validator.xcconfig */,
+				A742275E2A280535F8B9FD6EBC64700F /* Validator-dummy.m */,
+				1F50F1DC2A85C49D4EF5398E5922060D /* Validator-prefix.pch */,
+				6D9681D954689DB49680FE0975D4F314 /* Validator-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Validator";
+			sourceTree = "<group>";
+		};
+		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				10DEDCB394BAA0C7FEDEBE330207B074 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		47C50C6240026C3C061949EDED4AE098 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				AA53F07767C34E4D94C87C0D4B50FC7C /* Pods-Freebitco.in Roll Reminder */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
+				906C82496B75845E637C715B08F8420C /* Pods */,
+				1E577E893162CB4E3F9C9C595CD0996D /* Products */,
+				47C50C6240026C3C061949EDED4AE098 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		906C82496B75845E637C715B08F8420C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D9A666BEE7D40B6476B94E2B7ECF00A9 /* Validator */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		AA53F07767C34E4D94C87C0D4B50FC7C /* Pods-Freebitco.in Roll Reminder */ = {
+			isa = PBXGroup;
+			children = (
+				609DF2133BA06822AD8514AC8ABDFA81 /* Info.plist */,
+				3D63A78D4D43A45B8C333BF1C743281F /* Pods-Freebitco.in Roll Reminder.modulemap */,
+				A730DE98484C25E235565683DC2EA278 /* Pods-Freebitco.in Roll Reminder-acknowledgements.markdown */,
+				41D5307E290A6951EBF7F45D5A0972E2 /* Pods-Freebitco.in Roll Reminder-acknowledgements.plist */,
+				8A7C3F2E7A9CB1DD2D44D9E3A3B37C7D /* Pods-Freebitco.in Roll Reminder-dummy.m */,
+				186969B85C5EAC1754206EBA7CBE7EF9 /* Pods-Freebitco.in Roll Reminder-frameworks.sh */,
+				A92A193349101C2B7BAF85408FB3695D /* Pods-Freebitco.in Roll Reminder-resources.sh */,
+				A82E0CF7A3CD83FC407DB6712BE6E569 /* Pods-Freebitco.in Roll Reminder-umbrella.h */,
+				15CCA7459F233D5901EAFDBDACAC0AD5 /* Pods-Freebitco.in Roll Reminder.debug.xcconfig */,
+				4A117F9ED5190601BA489BF32BC5400B /* Pods-Freebitco.in Roll Reminder.release.xcconfig */,
+			);
+			name = "Pods-Freebitco.in Roll Reminder";
+			path = "Target Support Files/Pods-Freebitco.in Roll Reminder";
+			sourceTree = "<group>";
+		};
+		D9A666BEE7D40B6476B94E2B7ECF00A9 /* Validator */ = {
+			isa = PBXGroup;
+			children = (
+				0B77413507BE815C40F8D650A3AA407E /* CaseValidationPattern.swift */,
+				29AE362B30DC98793E178D20C93DA287 /* ContainsNumberValidationPattern.swift */,
+				8F036830E040B25DBBF9FF0CA4996105 /* EmailValidationPattern.swift */,
+				A49EA110BD9F8ABE61929BA610A2EEFD /* UISlider+Validator.swift */,
+				7DC038AD92C8B85BCA9F7EEA06C907EB /* UITextField+Validator.swift */,
+				08384AEEA653B01CE35B006CA7D5FBA8 /* UITextView+Validator.swift */,
+				322C309DCB9320BE548B438B3D758CEF /* Validatable.swift */,
+				508151E08478C2B173313B0B7C422408 /* ValidatableInterfaceElement.swift */,
+				8F93C03164F2B8F624AAA72CFB6F95A1 /* ValidationPattern.swift */,
+				C45CBEAF8881E0A1F3C6C68C1A708080 /* ValidationResult.swift */,
+				D593A642A64FA629DA399F82B36B440D /* ValidationRule.swift */,
+				93EAF4A6DAA7123C8332D07EDD5DC3AB /* ValidationRuleComparison.swift */,
+				55607C3D744D8C9A5629D00223C3E156 /* ValidationRuleCondition.swift */,
+				2398F632012964213E9520E1977E089B /* ValidationRuleContains.swift */,
+				E3AD888F796A9EFF8463C8F79A26F76B /* ValidationRuleEquality.swift */,
+				4D23E227D259500CD90D167754976FC8 /* ValidationRuleLength.swift */,
+				B274632438CC1B6DE4633E9A79A0FAAC /* ValidationRulePattern.swift */,
+				21E73E063E8D66E9FB11554937418700 /* ValidationRulePaymentCard.swift */,
+				D936BC57A41001737037EFCB14CB0800 /* ValidationRuleRequired.swift */,
+				680907D79F734135AC619497C16F4472 /* ValidationRuleSet.swift */,
+				DCC522FB3F4721B2B1CC7BEACECD0977 /* ValidationRuleURL.swift */,
+				64155CBEFD71C95C41479D28FCEACB9B /* Validator.swift */,
+				2C2CCD9E1B7478849FC91BF0953ABD99 /* Support Files */,
+			);
+			name = Validator;
+			path = Validator;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		AE6F5D33F535F3A3661A2B57F6ADFD60 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79D6D6810FB1B033DA08BDC1A0F54B3B /* Pods-Freebitco.in Roll Reminder-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B900FB64D31BFB44D36C74BC08E78F0F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23C6803455A336DEE49268C4DF41DFCE /* Validator-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		58C4D21B6797C07732D51ADDC6E5F495 /* Validator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 027F982F558B9E5C5D2E0BFF2C43588F /* Build configuration list for PBXNativeTarget "Validator" */;
+			buildPhases = (
+				B900FB64D31BFB44D36C74BC08E78F0F /* Headers */,
+				3CA931751182EC41A3A9CF35DF54E60C /* Sources */,
+				80D46D9C5DC92BD7FDF8DABD037FB800 /* Frameworks */,
+				BEAE782EB88C4A0EC0CBFF99AD480554 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Validator;
+			productName = Validator;
+			productReference = 27CFEC6BDC48F681914E1935DE10E52A /* Validator.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		7252AC114D9D08C24DF185D5012F7AE5 /* Pods-Freebitco.in Roll Reminder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5ECC60C2BCD45FD5BD95D416A6B58272 /* Build configuration list for PBXNativeTarget "Pods-Freebitco.in Roll Reminder" */;
+			buildPhases = (
+				AE6F5D33F535F3A3661A2B57F6ADFD60 /* Headers */,
+				8BC10A1ACF90E9FAAC2B44B3F613849C /* Sources */,
+				142E397D5B9D0CD15DD09F68A7FDCD9E /* Frameworks */,
+				315DA7315DF354400DCB4BB5512764E4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0986C9DBD36550B5FB1AD5B6D921EE3E /* PBXTargetDependency */,
+			);
+			name = "Pods-Freebitco.in Roll Reminder";
+			productName = "Pods-Freebitco.in Roll Reminder";
+			productReference = 4089169E19F43D9F59E03506D3A254B9 /* Pods_Freebitco_in_Roll_Reminder.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 1E577E893162CB4E3F9C9C595CD0996D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7252AC114D9D08C24DF185D5012F7AE5 /* Pods-Freebitco.in Roll Reminder */,
+				58C4D21B6797C07732D51ADDC6E5F495 /* Validator */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		315DA7315DF354400DCB4BB5512764E4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BEAE782EB88C4A0EC0CBFF99AD480554 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3CA931751182EC41A3A9CF35DF54E60C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B1B8DE06E4A75A0EDAA0606614F0FB2 /* CaseValidationPattern.swift in Sources */,
+				B9E597D08A19D9DA911135728743853A /* ContainsNumberValidationPattern.swift in Sources */,
+				74998677652D034B6E9F3282CF609FCC /* EmailValidationPattern.swift in Sources */,
+				770475BBC2750688F45C9E15B9C87A55 /* UISlider+Validator.swift in Sources */,
+				3BBE58BE51C652EB644034DB93EA26B7 /* UITextField+Validator.swift in Sources */,
+				B9D92467F5C91CF8DC122E22707DC28E /* UITextView+Validator.swift in Sources */,
+				31D099FB7E7CAECA0B3455842AB2C267 /* Validatable.swift in Sources */,
+				607537643C9A59735F6E8337AAE7F1E0 /* ValidatableInterfaceElement.swift in Sources */,
+				389F6C9ADE491CACA28FD272A50B694E /* ValidationPattern.swift in Sources */,
+				B673680EE74064D234F565FFA9882257 /* ValidationResult.swift in Sources */,
+				B26D4E20319F3653077CFF8C994160D1 /* ValidationRule.swift in Sources */,
+				858D8731CCCBAE7555976269A41DC97A /* ValidationRuleComparison.swift in Sources */,
+				19C2B7B08335C7550345B51B1A8A1DD7 /* ValidationRuleCondition.swift in Sources */,
+				E160FB380E4464507B379D148A5AD313 /* ValidationRuleContains.swift in Sources */,
+				28C01FC1018D1FD2D0F583374C679A6B /* ValidationRuleEquality.swift in Sources */,
+				7A5FA447BFCA65FD6C31C3B893D09963 /* ValidationRuleLength.swift in Sources */,
+				0BE0B42903D75D5219AEA75C1341EBD8 /* ValidationRulePattern.swift in Sources */,
+				4F3B348C1E8CE097DD1F0B5DE46863FA /* ValidationRulePaymentCard.swift in Sources */,
+				B21398748BEEF7763B22A59E8DD004AC /* ValidationRuleRequired.swift in Sources */,
+				C332393AA046BAA6221F2CD97A837089 /* ValidationRuleSet.swift in Sources */,
+				2114515342552DCF0C4EE88E93FF6FE3 /* ValidationRuleURL.swift in Sources */,
+				AC242D4AB8EF2A8C2F97E8F0220F554F /* Validator-dummy.m in Sources */,
+				11A2049C3C9A504E25638A661BA35E65 /* Validator.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8BC10A1ACF90E9FAAC2B44B3F613849C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14C3497C4974521C355A73D765233A1B /* Pods-Freebitco.in Roll Reminder-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0986C9DBD36550B5FB1AD5B6D921EE3E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Validator;
+			target = 58C4D21B6797C07732D51ADDC6E5F495 /* Validator */;
+			targetProxy = 86CB568495EBF918D7989AD816693AE1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		007F1066051A467FBEB0038594E9D7C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		0A39CDBB0A9EE047D3363572342433F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E900E21D405ACCA677128A3BAF2B1C35 /* Validator.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Validator/Validator-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Validator/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Validator/Validator.modulemap";
+				PRODUCT_MODULE_NAME = Validator;
+				PRODUCT_NAME = Validator;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		6A468A1555CFE514C89E5EBE39F046E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4A117F9ED5190601BA489BF32BC5400B /* Pods-Freebitco.in Roll Reminder.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Freebitco.in Roll Reminder/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Freebitco.in Roll Reminder/Pods-Freebitco.in Roll Reminder.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		817E1CBA320DA3907059B9B4539E56CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E900E21D405ACCA677128A3BAF2B1C35 /* Validator.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Validator/Validator-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Validator/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Validator/Validator.modulemap";
+				PRODUCT_MODULE_NAME = Validator;
+				PRODUCT_NAME = Validator;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		83A735FD52AAE963326ACED2DD338E13 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 15CCA7459F233D5901EAFDBDACAC0AD5 /* Pods-Freebitco.in Roll Reminder.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Freebitco.in Roll Reminder/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Freebitco.in Roll Reminder/Pods-Freebitco.in Roll Reminder.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E246FC26AF4A9832D7AA01080188D618 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		027F982F558B9E5C5D2E0BFF2C43588F /* Build configuration list for PBXNativeTarget "Validator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				817E1CBA320DA3907059B9B4539E56CC /* Debug */,
+				0A39CDBB0A9EE047D3363572342433F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E246FC26AF4A9832D7AA01080188D618 /* Debug */,
+				007F1066051A467FBEB0038594E9D7C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5ECC60C2BCD45FD5BD95D416A6B58272 /* Build configuration list for PBXNativeTarget "Pods-Freebitco.in Roll Reminder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83A735FD52AAE963326ACED2DD338E13 /* Debug */,
+				6A468A1555CFE514C89E5EBE39F046E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

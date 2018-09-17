@@ -1,0 +1,6 @@
+framework module Pods_Freebitco_in_Roll_Reminder {
+  umbrella header "Pods-Freebitco.in Roll Reminder-umbrella.h"
+
+  export *
+  module * { export * }
+}

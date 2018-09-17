@@ -7,15 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3459AD45214CFB27007CA4AC /* ValidationError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3459AD44214CFB27007CA4AC /* ValidationError.swift */; };
 		347C07122149AE7600259AA1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 347C07112149AE7600259AA1 /* AppDelegate.swift */; };
 		347C07142149AE7600259AA1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 347C07132149AE7600259AA1 /* ViewController.swift */; };
 		347C07172149AE7600259AA1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 347C07152149AE7600259AA1 /* Main.storyboard */; };
 		347C071A2149AE7600259AA1 /* Freebitco_in_Roll_Reminder.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 347C07182149AE7600259AA1 /* Freebitco_in_Roll_Reminder.xcdatamodeld */; };
 		347C071C2149AE7700259AA1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 347C071B2149AE7700259AA1 /* Assets.xcassets */; };
 		347C071F2149AE7700259AA1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 347C071D2149AE7700259AA1 /* LaunchScreen.storyboard */; };
+		347C07292149BC4700259AA1 /* AccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 347C07282149BC4700259AA1 /* AccountViewController.swift */; };
+		347C072B2149C84800259AA1 /* AccountTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 347C072A2149C84800259AA1 /* AccountTableViewCell.swift */; };
+		644A9643EA6E59DDFDF308C4 /* Pods_Freebitco_in_Roll_Reminder.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC72D4E8B175498B6FC9AE9 /* Pods_Freebitco_in_Roll_Reminder.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3459AD44214CFB27007CA4AC /* ValidationError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidationError.swift; sourceTree = "<group>"; };
 		347C070E2149AE7600259AA1 /* Freebitco.in Roll Reminder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Freebitco.in Roll Reminder.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		347C07112149AE7600259AA1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		347C07132149AE7600259AA1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -24,6 +29,11 @@
 		347C071B2149AE7700259AA1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		347C071E2149AE7700259AA1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		347C07202149AE7700259AA1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		347C07282149BC4700259AA1 /* AccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountViewController.swift; sourceTree = "<group>"; };
+		347C072A2149C84800259AA1 /* AccountTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountTableViewCell.swift; sourceTree = "<group>"; };
+		96F054C1EA8F4706DE39F30B /* Pods-Freebitco.in Roll Reminder.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Freebitco.in Roll Reminder.release.xcconfig"; path = "Pods/Target Support Files/Pods-Freebitco.in Roll Reminder/Pods-Freebitco.in Roll Reminder.release.xcconfig"; sourceTree = "<group>"; };
+		CEC72D4E8B175498B6FC9AE9 /* Pods_Freebitco_in_Roll_Reminder.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Freebitco_in_Roll_Reminder.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F39F91DAF330FF72854197A5 /* Pods-Freebitco.in Roll Reminder.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Freebitco.in Roll Reminder.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Freebitco.in Roll Reminder/Pods-Freebitco.in Roll Reminder.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +41,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				644A9643EA6E59DDFDF308C4 /* Pods_Freebitco_in_Roll_Reminder.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		26ECCE15343320BA5DFC98EB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CEC72D4E8B175498B6FC9AE9 /* Pods_Freebitco_in_Roll_Reminder.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		347C07052149AE7600259AA1 = {
 			isa = PBXGroup;
 			children = (
 				347C07102149AE7600259AA1 /* Freebitco.in Roll Reminder */,
 				347C070F2149AE7600259AA1 /* Products */,
+				F9FFBFFFAC8BEE0CB011CC06 /* Pods */,
+				26ECCE15343320BA5DFC98EB /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +77,27 @@
 		347C07102149AE7600259AA1 /* Freebitco.in Roll Reminder */ = {
 			isa = PBXGroup;
 			children = (
+				347C072A2149C84800259AA1 /* AccountTableViewCell.swift */,
 				347C07112149AE7600259AA1 /* AppDelegate.swift */,
 				347C07132149AE7600259AA1 /* ViewController.swift */,
 				347C07152149AE7600259AA1 /* Main.storyboard */,
+				347C07282149BC4700259AA1 /* AccountViewController.swift */,
+				3459AD44214CFB27007CA4AC /* ValidationError.swift */,
 				347C071B2149AE7700259AA1 /* Assets.xcassets */,
 				347C071D2149AE7700259AA1 /* LaunchScreen.storyboard */,
 				347C07202149AE7700259AA1 /* Info.plist */,
 				347C07182149AE7600259AA1 /* Freebitco_in_Roll_Reminder.xcdatamodeld */,
 			);
 			path = "Freebitco.in Roll Reminder";
+			sourceTree = "<group>";
+		};
+		F9FFBFFFAC8BEE0CB011CC06 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F39F91DAF330FF72854197A5 /* Pods-Freebitco.in Roll Reminder.debug.xcconfig */,
+				96F054C1EA8F4706DE39F30B /* Pods-Freebitco.in Roll Reminder.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +107,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 347C07232149AE7700259AA1 /* Build configuration list for PBXNativeTarget "Freebitco.in Roll Reminder" */;
 			buildPhases = (
+				E7BA83A89B3AE437704E95B3 /* [CP] Check Pods Manifest.lock */,
 				347C070A2149AE7600259AA1 /* Sources */,
 				347C070B2149AE7600259AA1 /* Frameworks */,
 				347C070C2149AE7600259AA1 /* Resources */,
+				75033A3A3C59440D139F4D58 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -133,14 +168,56 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		75033A3A3C59440D139F4D58 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Freebitco.in Roll Reminder/Pods-Freebitco.in Roll Reminder-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Validator/Validator.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Validator.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Freebitco.in Roll Reminder/Pods-Freebitco.in Roll Reminder-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E7BA83A89B3AE437704E95B3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Freebitco.in Roll Reminder-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		347C070A2149AE7600259AA1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				347C07142149AE7600259AA1 /* ViewController.swift in Sources */,
+				347C07292149BC4700259AA1 /* AccountViewController.swift in Sources */,
 				347C07122149AE7600259AA1 /* AppDelegate.swift in Sources */,
+				347C072B2149C84800259AA1 /* AccountTableViewCell.swift in Sources */,
 				347C071A2149AE7600259AA1 /* Freebitco_in_Roll_Reminder.xcdatamodeld in Sources */,
+				3459AD45214CFB27007CA4AC /* ValidationError.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,6 +359,7 @@
 		};
 		347C07242149AE7700259AA1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F39F91DAF330FF72854197A5 /* Pods-Freebitco.in Roll Reminder.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -300,6 +378,7 @@
 		};
 		347C07252149AE7700259AA1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 96F054C1EA8F4706DE39F30B /* Pods-Freebitco.in Roll Reminder.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

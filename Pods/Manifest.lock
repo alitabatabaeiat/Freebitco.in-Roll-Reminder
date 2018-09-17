@@ -1,0 +1,16 @@
+PODS:
+  - Validator (3.0.2)
+
+DEPENDENCIES:
+  - Validator
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Validator
+
+SPEC CHECKSUMS:
+  Validator: bf211c1d71b3f910d230c09c70e62429d0fef63a
+
+PODFILE CHECKSUM: b3c158feb51b99712284d80fc685c10a062f1384
+
+COCOAPODS: 1.5.3
